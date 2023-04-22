@@ -234,8 +234,8 @@ addEventListener("click", (event) => {
     );
   
     const velocity = {
-      x: Math.cos(angle) * 5,
-      y: Math.sin(angle) * 5,
+      x: Math.cos(angle) * 3,
+      y: Math.sin(angle) * 3,
     }; 
   });
 
