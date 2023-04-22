@@ -1,0 +1,17 @@
+*{
+       margin:0;
+      overflow: hidden;
+      color: white;
+}
+body{
+       background: rgb(15, 14, 14);
+}
+
+button{
+       border-radius: 10px;
+       margin-top: 5px;
+}
+button:hover{
+       background-color: black;
+       box-shadow: 3px 4px 3px rgb(36, 29, 29);
+}

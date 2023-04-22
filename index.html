@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dark Souls</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="style.css" />
+   
+  </head>
+  
+  <body>
+<div class="fixed text-2xl ml-2 mt-1 select-none" >
+       <span> score :</span>
+       <span id="update">0</span></div>
+     <div class="fixed inset-0 flex items-center justify-center" id="gamemodal">
+       <div class="bg-white max-w-md w-full p-4 text-center rounded-full ">
+                     <h1 id="finalscore" class="text-4xl font-bold text-black">0</h1>
+                     <p class="text-sm text-gray-700 mb-3 ">your score</p>
+                     <div><button  id="dabado" class="bg-blue-600  p-2 text-white ">click to start</button></div>
+           </div>
+           </div>
+       <canvas> 
+
+       </canvas>
+  </body>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"
+    integrity="sha512-cOH8ndwGgPo+K7pTvMrqYbmI8u8k6Sho3js0gOqVWTmQMlLIi6TbqGWRTpf1ga8ci9H3iPsvDLr4X7xwhC/+DQ=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+
+  <script src="index.js"></script>
+</html>
